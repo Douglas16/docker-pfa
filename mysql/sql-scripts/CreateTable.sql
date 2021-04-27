@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS fullcycle;
+USE fullcycle;
+CREATE TABLE modules (
+    id INTEGER AUTO_INCREMENT,
+    course TEXT,
+    PRIMARY KEY (id)
+) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4;
